@@ -4,7 +4,10 @@
     <?php
 
         /* Navbar Include */
-        include "modules/_top_menu.php";
+        include "partials/_top_menu.php";
+        
+        /* Info Header Box */
+        include "partials/_info_header.php"
         
     ?>
 </header>

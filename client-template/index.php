@@ -14,9 +14,13 @@ include "template/header.php";
 
 ?>
 
-<!-- Content Area -->
+<!-- ======== Content Area ======== -->
 
 
+<!-- TODO WRITE THINGS HERE -->
+
+
+<!-- ====== End Content Area ====== -->
 
 <?php
 
