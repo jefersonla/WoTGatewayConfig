@@ -7,10 +7,10 @@
 //$active_{page} = true;
 
 /* Head Include */
-include "template/head.php";
+include "app/template/head.php";
 
 /* Header Include */
-include "template/header.php";
+include "app/template/header.php";
 
 ?>
 
@@ -25,6 +25,6 @@ include "template/header.php";
 <?php
 
 /* Footer Include */
-include "template/footer.php";
+include "app/template/footer.php";
 
 ?>
