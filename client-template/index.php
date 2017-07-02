@@ -1,8 +1,5 @@
 <?php
 
-/* Include for models helpers and other  */
-
-
 /* Change Page Title */
 //$extra_title = "...";
 
@@ -10,7 +7,7 @@
 //$active_{page} = true;
 
 /* Define Template */
-$template_layout = "default"
+$template_layout = "default";
 
 /* Define View */
 $template_view = "home";

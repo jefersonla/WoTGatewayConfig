@@ -25,7 +25,7 @@ $template_layout = "layout_$template_layout.php";
 $template_view = "view_$template_view.php";
  
 /* Check if view and template file exists */
-if(!file_exists($template_layout) || !file_exists($template_view)){
+if(!file_exists(dirname(__FILE__)."/".$template_layout) || !file_exists(dirname(__FILE__)."/".$template_view)){
     die_http_error(500, "View or template don't exist!");
 }
  
