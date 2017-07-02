@@ -6,7 +6,7 @@
  * 
  */
  
-include "helpers/helper_default.php";
+require_once "helpers/helper_default.php";
 
 /* Check if we have a layout template defined, since we cannot render a layout 
    without have this type of thing we die right here. */

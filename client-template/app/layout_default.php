@@ -1,15 +1,15 @@
 <?php
 
 /* Head Include */
-include "templates/head.php";
+require_once "templates/head.php";
 
 /* Header Include */
-include "templates/header.php";
+require_once "templates/header.php";
 
 /* Include Viewer */
 include $template_view;
 
 /* Footer Include */
-include "templates/footer.php";
+require_once "templates/footer.php";
 
 ?>

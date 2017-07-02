@@ -1,0 +1,32 @@
+/**
+ *
+ * Created By Jeferson Lima - Based on DD-WRT Routers
+ * 
+ * Name WoT Config Web Interface
+ * Version 1.0.0
+ * Author Jeferson Lima de Almeida
+ * Description
+ *   Blue color scheme for WoT Gateway.
+ *
+ */
+
+#menu-main-list li span,
+#menu-main-list li a,
+#sub-menu,
+#help h2 {
+    background: #30519C none repeat scroll 0% 0%;
+    color: #FFF;
+    border-color: #496FC7;
+}
+
+#menu-main-list li a {
+    background: #333 none repeat scroll 0% 0%;
+    color: #999;
+    border-color: #555 #222 #000 #555;
+}
+
+#sub-menu-list li a {
+    background: #496FC7 none repeat scroll 0% 0%;
+    color: #FFF;
+    border-color: #6384CF;
+}

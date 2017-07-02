@@ -21,6 +21,9 @@
 
     <!-- CSS Reset -->
     <link rel="stylesheet" type="text/css" href="styles/reset-style.css">
+    
+    <!-- Default Color Scheme -->
+    <link rel="stylesheet" type="text/css" href="styles/scheme/blue.css">
 
     <!-- Base CSS -->
     <link rel="stylesheet" type="text/css" href="styles/default.css">

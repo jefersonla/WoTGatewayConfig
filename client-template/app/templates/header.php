@@ -4,10 +4,10 @@
     <?php
 
         /* Navbar Include */
-        include "partials/_top_menu.php";
+        require_once "partials/_top_menu.php";
         
         /* Info Header Box */
-        include "partials/_info_header.php"
+        require_once "partials/_info_header.php"
         
     ?>
 </header>

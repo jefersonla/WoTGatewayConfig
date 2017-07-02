@@ -12,3 +12,65 @@
  *   and FoG of Things.
  *
  */
+
+html {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 1em;
+}
+
+body {
+    text-align: center;
+    font-size: 69%;
+    background: #111;
+    margin: 0;
+}
+
+/* Content Area */
+#content{
+    margin: 0 auto;
+    width: 800px;
+}
+
+/* Header Objects */
+
+header{
+    padding-top: 10px;
+}
+
+#logo{
+    height: 4em;
+    margin: 0 0 5px 0;
+    background: transparent url("../images/logo_control_panel_wiserufba.png") no-repeat scroll left center;
+}
+
+/* Top Menu Objects */
+#menu {
+    height: 50px;
+    text-align: left;
+}
+
+#menu-main-list li,
+#sub-menu-list li {
+    display: inline-block;
+}
+
+#menu-main-list li span,
+#sub-menu-list li span,
+#menu-main-list li a,
+#sub-menu-list li a {
+    border-radius: 4px 4px 0px 0px;
+    border-style: solid solid none;
+    border-width: 1px;
+    display: block;
+    margin-left: 0.362em;
+    padding: 0.453em 0.906em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#sub-menu {
+    border-width: 0px;
+    border-style: none;
+    border-radius: 4px 4px 0px 0px;
+    padding-top: 0.362em;
+}

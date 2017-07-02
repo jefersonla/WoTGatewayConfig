@@ -15,22 +15,6 @@
                     }
 
                 ?>
-                <div id="sub-menu" class="<?php echo(isset($status_menu_active) ? "" : "hide"); ?>">
-                    <ul id="sub-menu-list">
-                        <li>
-                            <span><strong> Option 1 </strong></span>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 2 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 3 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 4 </strong></a>
-                        </li>
-                    </ul>
-                </div>
             </li>
             <li class="<?php echo(isset($setup_menu_active) ? "active" : ""); ?>">
                 <?php 
@@ -45,22 +29,6 @@
                     }
 
                 ?>
-                <div id="sub-menu" class="<?php echo(isset($setup_menu_active) ? "" : "hide"); ?>">
-                    <ul id="sub-menu-list">
-                        <li>
-                            <span><strong> Option 1 </strong></span>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 2 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 3 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 4 </strong></a>
-                        </li>
-                    </ul>
-                </div>
             </li>
             <li class="<?php echo(isset($security_menu_active) ? "active" : ""); ?>">
                 <?php 
@@ -75,22 +43,6 @@
                     }
 
                 ?>
-                <div id="sub-menu" class="<?php echo(isset($security_menu_active) ? "" : "hide"); ?>">
-                    <ul id="sub-menu-list">
-                        <li>
-                            <span><strong> Option 1 </strong></span>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 2 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 3 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 4 </strong></a>
-                        </li>
-                    </ul>
-                </div>
             </li>
             <li class="<?php echo(isset($advanced_menu_active) ? "active" : ""); ?>">
                 <?php 
@@ -105,22 +57,6 @@
                     }
 
                 ?>
-                <div id="sub-menu" class="<?php echo(isset($advanced_menu_active) ? "" : "hide"); ?>">
-                    <ul id="sub-menu-list">
-                        <li>
-                            <span><strong> Option 1 </strong></span>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 2 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 3 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 4 </strong></a>
-                        </li>
-                    </ul>
-                </div>
             </li>
             <li class="<?php echo(isset($administration_menu_active) ? "active" : ""); ?>">
                 <?php 
@@ -135,24 +71,24 @@
                     }
 
                 ?>
-                <div id="sub-menu" class="<?php echo(isset($administration_menu_active) ? "" : "hide"); ?>">
-                    <ul id="sub-menu-list">
-                        <li>
-                            <span><strong> Option 1 </strong></span>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 2 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 3 </strong></a>
-                        </li>
-                        <li>
-                            <a href="#"><strong> Option 4 </strong></a>
-                        </li>
-                    </ul>
-                </div>
             </li>
         </ul>
+        <nav id="sub-menu">
+            <ul id="sub-menu-list">
+                <li>
+                    <span><strong> Option 1 </strong></span>
+                </li>
+                <li>
+                    <a href="#"><strong> Option 2 </strong></a>
+                </li>
+                <li>
+                    <a href="#"><strong> Option 3 </strong></a>
+                </li>
+                <li>
+                    <a href="#"><strong> Option 4 </strong></a>
+                </li>
+            </ul>
+        </nav>
     </nav>
 </section>
 <!-- END OF TOP MENU -->
