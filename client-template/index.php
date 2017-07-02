@@ -1,30 +1,21 @@
 <?php
 
+/* Include for models helpers and other  */
+
+
 /* Change Page Title */
 //$extra_title = "...";
 
 /* Change Active Page */
 //$active_{page} = true;
 
-/* Head Include */
-include "app/templates/head.php";
+/* Define Template */
+$template_layout = "default"
 
-/* Header Include */
-include "app/templates/header.php";
+/* Define View */
+$template_view = "home";
 
-?>
-
-<!-- ======== Content Area ======== -->
-
-
-<!-- TODO WRITE THINGS HERE -->
-
-
-<!-- ====== End Content Area ====== -->
-
-<?php
-
-/* Footer Include */
-include "app/templates/footer.php";
+/* Include Layout */
+include "app/layout.php";
 
 ?>

@@ -1,3 +1,4 @@
+<!-- BEGIN OF TOP MENU -->
 <section id="menu">
     <nav id="top-menu">
         <ul id="menu-main-list">
@@ -154,3 +155,4 @@
         </ul>
     </nav>
 </section>
+<!-- END OF TOP MENU -->
