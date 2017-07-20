@@ -10,6 +10,6 @@ $template_layout = "clean";
 $template_view = "login";
 
 /* Include Layout */
-include "app/layout.php";
+require_once "app/layout.php";
 
 ?>

@@ -7,7 +7,7 @@
     <!-- Default Configuration -->
 
     <!-- Page Title -->
-    <title> WiserUFBA WoT Gateway - <?php echo(isset($extra_title) ? $extra_title : "Web Config"); ?> </title>
+    <title> WiserUFBA WoT Gateway - <?= isset($extra_title) ? $extra_title : "Web Config" ?> </title>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
@@ -22,8 +22,13 @@
     <!-- CSS Reset -->
     <link rel="stylesheet" type="text/css" href="styles/reset-style.css">
     
+    <?php
+        /* Get the actual session */
+        $session = Session::getInstance();
+    ?>
+    
     <!-- Default Color Scheme -->
-    <link rel="stylesheet" type="text/css" href="styles/scheme/blue.css">
+    <link rel="stylesheet" type="text/css" href="styles/scheme/<?= isset($session->color_scheme) ? $session->color_scheme : "blue" ?>.css">
 
     <!-- Base CSS -->
     <link rel="stylesheet" type="text/css" href="styles/default.css">

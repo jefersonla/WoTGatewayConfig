@@ -1,0 +1,22 @@
+{
+    "name": "WiserUFBA/WoTGatewayConfig",
+    "description":"WoT Configurator interface for raspberrypi",
+    "keywords":["gateway","iot","raspberrypi"],
+    "type":"project",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Jeferson Lima",
+            "email": "jefersonlimaa@dcc.ufba.br",
+            "homepage":"http://jefersonla.github.io",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "http://wiser.dcc.ufba.br",
+    "require": {
+        "bshaffer/oauth2-server-php": "~1.8"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

@@ -14,7 +14,6 @@ if(!isset($template_layout)){
     die_http_error(500, "Template not defined!");
 }
 
-
 /* Check if we have a view defined, since we always need a view we die here too. */
 if(!isset($template_view)){
     die_http_error(500, "View not defined!");
@@ -30,6 +29,6 @@ if(!file_exists(dirname(__FILE__)."/".$template_layout) || !file_exists(dirname(
 }
  
 /* Include only the template since template_view should be included by the layout */
-include $template_layout;
+require_once $template_layout;
 
 ?>

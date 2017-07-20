@@ -25,6 +25,18 @@
     border-color: #555 #222 #000 #555;
 }
 
+#menu-main-list li a:hover {
+    background: #666;
+    color: #ccc;
+    border-color: #888 #444 #000 #888;
+}
+
+#sub-menu-list li a:hover {
+    background: #6384cf;
+    color: #fff;
+    border-color: #849dd9 #849dd9 #849dd9 #849dd9;
+}
+
 #sub-menu-list li a {
     background: #496FC7 none repeat scroll 0% 0%;
     color: #FFF;

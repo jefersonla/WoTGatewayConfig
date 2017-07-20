@@ -4,6 +4,6 @@
 require_once "templates/head.php";
 
 /* Include Viewer */
-include $template_view;
+require_once $template_view;
 
 ?>

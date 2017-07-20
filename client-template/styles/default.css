@@ -74,3 +74,9 @@ header{
     border-radius: 4px 4px 0px 0px;
     padding-top: 0.362em;
 }
+
+#menu-main-list li a:hover,
+#sub-menu-list li a:hover {
+    margin-top: 0;
+    padding-bottom: 0.543em;
+}
