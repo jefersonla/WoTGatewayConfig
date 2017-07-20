@@ -1,5 +1,19 @@
 
-# Created by https://www.gitignore.io/api/java,node,maven,linux,eclipse,netbeans,sublimetext,visualstudiocode,intellij
+# Created by https://www.gitignore.io/api/java,node,maven,linux,bower,eclipse,netbeans,composer,sublimetext,intellij+all,visualstudiocode
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### Composer ###
+composer.phar
+/vendor/
+
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
 
 ### Eclipse ###
 
@@ -60,7 +74,7 @@ local.properties
 # JDT-specific (Eclipse Java Development Tools)		
 .classpath
 
-### Intellij ###
+### Intellij+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -111,16 +125,11 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-### Intellij Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+### Intellij+all Patch ###
+# Ignores the whole idea folder
+# See https://github.com/joeblau/gitignore.io/issues/186 and https://github.com/joeblau/gitignore.io/issues/360
 
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
-
-# Sonarlint plugin
-.idea/sonarlint
+.idea/
 
 ### Java ###
 # Compiled class file
@@ -209,7 +218,6 @@ coverage
 .grunt
 
 # Bower dependency directory (https://bower.io/)
-bower_components
 
 # node-waf configuration
 .lock-wscript
@@ -282,4 +290,4 @@ GitHub.sublime-settings
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# End of https://www.gitignore.io/api/java,node,maven,linux,eclipse,netbeans,sublimetext,visualstudiocode,intellij
+# End of https://www.gitignore.io/api/java,node,maven,linux,bower,eclipse,netbeans,composer,sublimetext,intellij+all,visualstudiocode
