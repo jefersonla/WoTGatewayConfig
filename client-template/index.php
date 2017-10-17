@@ -16,7 +16,7 @@ $session = Session::getInstance();
 //$active_{page} = true;
 
 /* Status Message */
-$status_menu_active = true;
+$setup_menu_active = true;
 
 /* Define Template */
 $template_layout = "default";

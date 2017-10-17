@@ -2,20 +2,6 @@
 <section id="menu">
     <nav id="top-menu">
         <ul id="menu-main-list">
-            <li class="<?php echo(isset($status_menu_active) ? "active" : ""); ?>">
-                <?php 
-
-                    /* Tab Selected */
-                    if(isset($status_menu_active)){
-                        echo "<span><strong> Status </strong></span>";
-                    }
-                    /* Tab unselected */
-                    else{
-                        echo "<a href=\"status.php\"><strong> Status </strong></a>";
-                    }
-
-                ?>
-            </li>
             <li class="<?php echo(isset($setup_menu_active) ? "active" : ""); ?>">
                 <?php 
 
@@ -26,6 +12,20 @@
                     /* Tab unselected */
                     else{
                         echo "<a href=\"setup.php\"><strong> Setup </strong></a>";
+                    }
+
+                ?>
+            </li>
+            <li class="<?php echo(isset($status_menu_active) ? "active" : ""); ?>">
+                <?php 
+
+                    /* Tab Selected */
+                    if(isset($status_menu_active)){
+                        echo "<span><strong> Status </strong></span>";
+                    }
+                    /* Tab unselected */
+                    else{
+                        echo "<a href=\"status.php\"><strong> Status </strong></a>";
                     }
 
                 ?>
