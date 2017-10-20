@@ -21,24 +21,24 @@
 
     <!-- CSS Reset -->
     <link rel="stylesheet" type="text/css" href="styles/reset-style.css">
-    
+
     <?php
         /* Get the actual session */
         $session = Session::getInstance();
     ?>
-    
+
     <!-- Default Color Scheme -->
     <link rel="stylesheet" type="text/css" href="styles/scheme/<?= isset($session->color_scheme) ? $session->color_scheme : "blue" ?>.css">
-    
+
     <!-- Base CSS -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
     <!-- Color Template -->
-    <link rel="stylesheet" type="text/css" href="styles/templates/color1.css">
+    <!--<link rel="stylesheet" type="text/css" href="styles/templates/color1.css">-->
     <link rel="stylesheet" type="text/css" href="styles/templates/dark.css">
 
     <!-- Basic Include Style -->
-    <link rel="stylesheet" type="text/css" href="styles/basic.css">
+    <!--<link rel="stylesheet" type="text/css" href="styles/basic.css">-->
 
     <!-- Base CSS -->
     <link rel="stylesheet" type="text/css" href="styles/default.css">

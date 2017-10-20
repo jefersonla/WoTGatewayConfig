@@ -3,7 +3,7 @@
     <nav id="top-menu">
         <ul id="menu-main-list">
             <li class="<?php echo(isset($setup_menu_active) ? "active" : ""); ?>">
-                <?php 
+                <?php
 
                     /* Tab Selected */
                     if(isset($setup_menu_active)){
@@ -17,7 +17,7 @@
                 ?>
             </li>
             <li class="<?php echo(isset($status_menu_active) ? "active" : ""); ?>">
-                <?php 
+                <?php
 
                     /* Tab Selected */
                     if(isset($status_menu_active)){
@@ -30,8 +30,8 @@
 
                 ?>
             </li>
-            <li class="<?php echo(isset($security_menu_active) ? "active" : ""); ?>">
-                <?php 
+            <li class="disabled <?php echo(isset($security_menu_active) ? "active" : ""); ?>">
+                <?php
 
                     /* Tab Selected */
                     if(isset($security_menu_active)){
@@ -44,8 +44,8 @@
 
                 ?>
             </li>
-            <li class="<?php echo(isset($advanced_menu_active) ? "active" : ""); ?>">
-                <?php 
+            <li class="disabled <?php echo(isset($advanced_menu_active) ? "active" : ""); ?>">
+                <?php
 
                     /* Tab Selected */
                     if(isset($advanced_menu_active)){
@@ -58,8 +58,8 @@
 
                 ?>
             </li>
-            <li class="<?php echo(isset($administration_menu_active) ? "active" : ""); ?>">
-                <?php 
+            <li class="disabled <?php echo(isset($administration_menu_active) ? "active" : ""); ?>">
+                <?php
 
                     /* Tab Selected */
                     if(isset($administration_menu_active)){
@@ -72,21 +72,26 @@
 
                 ?>
             </li>
+            <li>
+              <a class="logout" href="/do-logout.php"><strong> Logout </strong></a>
+            </li>
         </ul>
         <nav id="sub-menu">
             <ul id="sub-menu-list">
                 <li>
-                    <span><strong> Option 1 </strong></span>
+                    <span><strong> Basic </strong></span>
                 </li>
                 <li>
-                    <a href="#"><strong> Option 2 </strong></a>
+                    <a href="#" class="disabled"><strong> More Config </strong></a>
                 </li>
+                <!--
                 <li>
                     <a href="#"><strong> Option 3 </strong></a>
                 </li>
                 <li>
                     <a href="#"><strong> Option 4 </strong></a>
                 </li>
+                -->
             </ul>
         </nav>
     </nav>

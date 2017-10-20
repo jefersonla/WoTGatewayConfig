@@ -3,28 +3,18 @@
 /* Require composer autoload */
 require_once __DIR__ . '/vendor/autoload.php';
 
-/* Require Session Helper */
-require_once "app/helpers/helper_session.php";
+/* Inicia a sessão */
+session_start();
 
-/* Get the actual session */
-$session = Session::getInstance();
+/* Check if user is logged in */
+if (isset($_SESSION['status_login']) and $_SESSION['status_login'] == 1) {
+  /* Redirects to setup */
+  header("Location: /setup.php");
+  exit();
+}
 
-/* Change Page Title */
-//$extra_title = "...";
-
-/* Change Active Page */
-//$active_{page} = true;
-
-/* Status Message */
-$setup_menu_active = true;
-
-/* Define Template */
-$template_layout = "default";
-
-/* Define View */
-$template_view = "home";
-
-/* Include Layout */
-require_once "app/layout.php";
+/* Redirect to login page */
+header("Location: /login.php");
+exit();
 
 ?>

@@ -15,16 +15,15 @@ if (isset($_SESSION['status_login']) and $_SESSION['status_login'] == 1) {
   exit();
 }
 
-/* Change Page Title */
-$extra_title = "Login WoT Config";
-
-/* Define Template */
-$template_layout = "clean";
-
-/* Define View */
-$template_view = "login";
-
-/* Include Layout */
-require_once "app/layout.php";
+/* Do login action */
+if ($_POST['user'] == 'root' && $_POST['pass'] == 'wiser2014' ){
+  $_SESSION['status_login'] = 1;
+  header("Location: /index.php");
+  exit();
+}
+else{
+  header("Location: /login.php");
+  exit();
+}
 
 ?>

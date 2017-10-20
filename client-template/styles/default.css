@@ -1,7 +1,7 @@
 /**
  *
  * Created By Jeferson Lima - Based on DD-WRT Routers
- * 
+ *
  * Name WoT Config Web Interface
  * Version 1.0.0
  * Author Jeferson Lima de Almeida
@@ -63,6 +63,7 @@ header{
     border-width: 1px;
     display: block;
     margin-left: 0.362em;
+    margin-top: 0.120em;
     padding: 0.453em 0.906em;
     text-decoration: none;
     font-weight: bold;
@@ -78,5 +79,5 @@ header{
 #menu-main-list li a:hover,
 #sub-menu-list li a:hover {
     margin-top: 0;
-    padding-bottom: 0.543em;
+    padding-top: 0.543em;
 }

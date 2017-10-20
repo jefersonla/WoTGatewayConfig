@@ -1,5 +1,5 @@
 <!-- BEGIN OF FOOTER -->
-    <footer>
+    <footer class="footer">
         <center> Developed By Wiser Research Group </center>
     </footer>
 <!-- END OF FOOTER -->

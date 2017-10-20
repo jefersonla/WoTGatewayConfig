@@ -1,7 +1,7 @@
 /**
  *
  * Created By Jeferson Lima - Based on DD-WRT Routers
- * 
+ *
  * Name WoT Config Web Interface
  * Version 1.0.0
  * Author Jeferson Lima de Almeida
@@ -68,7 +68,6 @@ input.num {
 
 header {
     width: 72.464em;
-    height: 9.340em;
     background: #111;
     padding-top: .908em;
 }
@@ -191,15 +190,19 @@ header #logo h1 {
     border-color: #888 #444 #000 #888;
 }
 
+/*
 #main,
 #helpContainer {
     position: relative;
     float: left;
 }
+*/
 
 #main #contents {
     width: 52.536em;
     padding: .906em;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #main #contentsInfo {
@@ -236,6 +239,7 @@ h3,
     margin-bottom: .453em;
     line-height: 1.993em;
     width: 100%;
+    text-align: left;
 }
 
 .setting .label {
@@ -245,6 +249,7 @@ h3,
 
 fieldset .setting .label {
     width: 18.116em;
+    text-align: center;
 }
 
 .setting .default {
@@ -303,8 +308,9 @@ table td {
 }
 
 #help {
-    width: 17.210em;
-    padding: .906em 0;
+    width: 16.210em;
+    padding: 1.906em 9px 0;
+    display: inline-block;
 }
 
 #help dl {
@@ -399,6 +405,7 @@ div.center {
 
 .meter .bar {
     height: 1.268em;
+    background-color: #496fc7;
 }
 
 .meter .text {
@@ -513,4 +520,19 @@ td.bulle {
     .setting {
         line-height: 1.812em;
     }
+}
+
+.disabled {
+    pointer-events:none !important;
+    opacity:0.5 !important;
+}
+
+.footer{
+  border-top: 1px solid aliceblue;
+  padding: 5px;
+}
+
+.logout{
+  background: #ce1f1f !important;
+  color: white !important;
 }
